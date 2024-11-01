@@ -38,12 +38,19 @@
 
 3) Technical Notes
 
+   * Support for XAA has been removed from this version of the driver,
+     due to modern versions of Xfree86 having removed it a long time ago.
+
    * Enable both internal "intern_disp" and external "extern_disp"
      options to get simultaneous panel/CRT support.
 
 
 4) Reported Working Laptops
 
+CURRENT VERSION:
+	* Panasonic Toughbook CF-27 MKII
+
+OLDER VERSIONS:
    * Acer Travelmate 7120T
    * Acer Extensa 367, 367D & 710TE
    * Actebis TN559Pro
@@ -144,6 +151,9 @@
 
    Port to Xfree86 4.0 done by:
    Egbert Eich (Egbert.Eich@Physik.TU-Darmstadt.de)
+
+   Modifications to allow the driver to run on further versions of Xfree86 done by:
+   Tyler McGurrin (mcgurrintyler@gmail.com)
 
 
 
